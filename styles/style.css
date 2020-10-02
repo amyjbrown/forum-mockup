@@ -1,0 +1,104 @@
+html {
+    background-color: #F5DEB3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: #241F14;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto; /*Here, auto is a special value that divides the available horizontal space evenly between left and right.*/
+    background-color: #A0895E; /*todo change this*/
+    padding: 0 20px 20px 20px; /*Removes the thing at top, leaves space on sides*/
+    border: 5px solid #806D4B;
+    /* border-radius: 45px; */
+}
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    color: #A05E96;
+    text-shadow: 3px 3px 1px #201B12;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+nav {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    border-top: 5px solid #A0895E;
+    border-bottom: 5px solid #A0895E;
+    display: flex;
+    background-color: #CEA863;
+    flex: 100%;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex: 2;
+}
+
+nav li {
+    display: inline;
+    flex: 1;
+    text-align: center;
+}
+
+nav li {
+    font-style: bold;
+}
+
+nav li :link {
+    color: #5EA068;
+}
+
+
+.post-container:first-child {
+    border-top: 5px solid #806D4B;
+}
+
+.post-container {
+    width: 940px;
+    /* padding: 0; */
+    margin-left: -20px;
+    border-top: 5px solid #806D4B;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+}
+
+main > article.post-container:first-child {
+    border-top: 5px solid  #806D4B;
+}
+
+main > article.post-container:last-child {
+    border-bottom: 5px solid #806D4B;
+}
+
+.post-id {
+    text-align: center;
+    border-right: 5px solid #806D4B;
+    flex:0 0 175px;
+    /* margin: 0; */
+}
+
+.post-id > * {
+    margin: 0;
+}
+
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-body{
+    padding: 1em;
+}
